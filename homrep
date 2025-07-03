@@ -1,0 +1,4 @@
+homeopathy-remedy-finder/
+├── client/        # React frontend
+├── server/        # Node.js backend
+└── README.md
