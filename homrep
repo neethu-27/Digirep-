@@ -1,4 +1,30 @@
-homeopathy-remedy-finder/
-├── client/        # React frontend
-├── server/        # Node.js backend
-└── README.md
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digirep — Homeopathy Remedy Lookup</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Digirep</h1>
+    <p>Enter your symptoms and get suggested homeopathic remedies.</p>
+  </header>
+
+  <main>
+    <section id="lookup">
+      <h2>Symptom–Remedy Tool</h2>
+      <textarea id="symptomsInput" placeholder="List your symptoms, separated by commas..."></textarea>
+      <button id="lookupBtn">Find Remedies</button>
+      <div id="results"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Digirep — Empowering homeopathic care</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
